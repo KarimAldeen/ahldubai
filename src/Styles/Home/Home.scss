@@ -1,7 +1,8 @@
 
 
 .Home_Page{
-    .HeroSection{
+    user-select: none;
+        .HeroSection{
         width: 100%;
         min-height: 500px;
         display: flex;
