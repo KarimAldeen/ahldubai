@@ -345,13 +345,13 @@
 
         h1 {
             width: 30vw;
-
             font-size: 3.5vw;
             margin-bottom: 20px;
         }
         p{
             width: 30vw;
             font-size: 1vw;
+            color: var(--text);
 
         }
 
@@ -398,6 +398,8 @@
 
             p {
                 font-size:.9vw;
+                            color: var(--text);
+
             }
         }
 
