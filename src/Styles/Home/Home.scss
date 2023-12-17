@@ -427,11 +427,14 @@
 
     >div {
         h1 {
+            color: var(--text);
             font-size: 4.5vw;
         }
 
         p {
             font-size: 1.4vw;
+            color: var(--text);
+
         }
 
         width: 50%;
@@ -447,11 +450,11 @@
         height: 22vw;
 
         .ContactColor {
-            fill: var(--secondary) !important;
+            fill: var(--primary) !important;
         }
 
         .ContactColor2 {
-            fill: var(--primary) !important;
+            fill: var(--text) !important;
 
         }
 
@@ -940,8 +943,8 @@ body {
     overflow: hidden;
     background: url("../../../public/image/2.png") center/cover;
     opacity: 1;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     left: 50%;
     top: 50%;

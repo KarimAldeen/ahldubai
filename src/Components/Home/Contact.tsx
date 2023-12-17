@@ -16,7 +16,8 @@ const onFinishFailed = (errorInfo: any) => {
 
 type FieldType = {
   username?: string;
-  phone?: string;
+  password?: string;
+  remember?: string;
 };
   const [value, setValue] = useState(3);
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
@@ -27,7 +28,8 @@ const { TextArea } = Input;
         <div>
             <h1>Contact Us</h1>
             <p>
-            Leave your contact number and we call you back               
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam explicabo 
+               
             </p>
             {/* <img src="../Layout/contact.svg" alt="" /> */}
             <ContactImage/>
@@ -44,20 +46,29 @@ const { TextArea } = Input;
     autoComplete="off"
   >
    <Form.Item<FieldType>
-      label="username"
+      label="usename"
       name="username"
       rules={[{ required: true, message: 'Please input your name!' }]}
     >
       <Input />
     </Form.Item>
-   
     <Form.Item<FieldType>
-      label="phone"
-      name="phone"
-      rules={[{ required: true, message: 'Please input your name!' }]}
+      label="Password"
+      name="password"
     >
-      <Input />
+      <Input.Password />
     </Form.Item>
+
+    <Form.Item label="TextArea">
+          <TextArea rows={4} />
+        </Form.Item>
+
+    <Form.Item label="Rate Us">
+       <Space className='ms-3'>
+      <Rate tooltips={desc} onChange={setValue} value={value} />
+    </Space>
+        </Form.Item>
+
     <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
       <Button block type="primary" htmlType="submit">
         Submit
