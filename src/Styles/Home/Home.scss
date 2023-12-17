@@ -43,7 +43,9 @@
                 color: var(--white);
                 padding: 6px 30px;
                 border-radius: 4px;
-                text-wrap: nowrap;
+                text-wrap: nowrap !important;
+                white-space: nowrap !important;
+                
                 font-size: 1.2vw;
                 font-weight: bold;
                 // cursor: pointer;
