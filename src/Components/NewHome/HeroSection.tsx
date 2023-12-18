@@ -46,8 +46,8 @@ const ImageSrc ="https://img.freepik.com/free-photo/business-urban-beautiful-lan
 
   <Carousel autoplay>
     <img className='img' src={ImageSrc} alt="" />  
-    {/* <img src={ImageSrc2} alt="" />   
-    <img src={ImageSrc3} alt="" />    */}
+    <img className='img' src={ImageSrc2} alt="" />   
+    <img className='img' src={ImageSrc3} alt="" />   
 
   </Carousel>
 
