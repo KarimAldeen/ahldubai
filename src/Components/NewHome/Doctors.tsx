@@ -15,7 +15,7 @@ const Doctors = () => {
       <div>
       <Select
       defaultValue="lucy"
-      style={{ width: 220 }}
+      style={{ width: 160 }}
       onChange={handleChange}
       options={[
         { value: 'jack', label: 'Jack' },
