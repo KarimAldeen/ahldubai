@@ -229,7 +229,8 @@
             color: var(--bg);
             padding: 20px;
             height: fit-content;
-        
+            text-align: center;
+
             * {
                 background: var(--primary);
         
@@ -238,7 +239,7 @@
             >div,
             ul {
                 display: flex;
-                gap: 50px;
+                gap: 1vw;
         
             }
         
@@ -246,11 +247,13 @@
                 all: unset;
                 @include underLineText(var(--primary), var(--secondary));
                 z-index: 7;
+                font-size: 2vw;
             }
         
             svg,
             h1 {
                 color: var(--secondary);
+                text-align: center;
             }
         
         }

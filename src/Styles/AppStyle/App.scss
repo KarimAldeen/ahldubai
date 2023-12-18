@@ -1,6 +1,8 @@
 body {
     background: var(--bg);
         color: var(--primary);
+        max-width: 100vw;
+        overflow-x: hidden;
 
 scroll-behavior: smooth;
 scroll-padding:5rem ;
