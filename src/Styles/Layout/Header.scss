@@ -1,10 +1,12 @@
 .Header {
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--bg);
-    color: var(--text);
-    height: 75px;
+    background: transparent;
+    color: var(--white);
+    height: 90px;
     padding-inline: 8vw;
     z-index: 5;
 
@@ -212,3 +214,48 @@
 
             }
         }
+
+
+
+        .Footer {
+
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background: var(--primary);
+            color: var(--bg);
+            padding: 20px;
+            height: fit-content;
+        
+            * {
+                background: var(--primary);
+        
+            }
+        
+            >div,
+            ul {
+                display: flex;
+                gap: 50px;
+        
+            }
+        
+            li {
+                all: unset;
+                @include underLineText(var(--primary), var(--secondary));
+                z-index: 7;
+            }
+        
+            svg,
+            h1 {
+                color: var(--secondary);
+            }
+        
+        }
+
+        :where(.css-dev-only-do-not-override-p7e5j5).ant-float-btn-primary .ant-float-btn-body{
+            background: var(--primary) !important;
+        }
+        

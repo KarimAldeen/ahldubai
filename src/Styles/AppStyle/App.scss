@@ -28,15 +28,8 @@ a {
     color: inherit;
     font-weight: bold;
     text-decoration: none !important;
-    // cursor: pointer;
 
 }
-
-button,
-svg {
-    // cursor: pointer;
-}
-
 
 
 .not_foound_page{
@@ -74,4 +67,33 @@ svg {
             margin-inline:30px;
         }
     }
+}
+body {
+    overflow-x: hidden;
+}
+.Blob2 {
+
+    z-index: 1;
+    overflow: hidden;
+    background: url("../../../public/1.gif") center/cover;
+    opacity: 1;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -70% -50%;
+    mix-blend-mode: multiply;
+    // animation: rotate 20s infinite ease-in-out;.
+
+    @keyframes rotate {
+        from {
+            rotate: 0deg;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
 }

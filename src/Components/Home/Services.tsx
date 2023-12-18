@@ -17,6 +17,7 @@ const Services = () => {
 
 
     ]
+  
     return (
         <div className="Services" id='features'>
             <div className="in">
