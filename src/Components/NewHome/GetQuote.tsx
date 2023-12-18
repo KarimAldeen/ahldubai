@@ -12,7 +12,7 @@ const GetQuote = () => {
            <FormQutote/>
         </div>
         <div className='GetQuote_Right'>
-            <img src="https://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/img-oscar-1280x854.jpg" alt="" />
+            <img src="../Home/oscar.jpg" alt="" />
             </div>
     </div>
   )

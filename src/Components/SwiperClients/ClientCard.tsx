@@ -11,7 +11,7 @@ const ClientCard = () => {
                 teth white
             </p>
         </span>
-        <img src="https://denticare.bold-themes.com/oscar/wp-content/uploads/sites/15/2020/01/client-04-160x160.jpg" alt="" />
+        <img src="../Home/client.jpg" alt="" />
     </div>
     <p>
         Capitalize on low hanging fruit to identify a ballpark value added activity to beta test clickthroughs from users.
